@@ -51,6 +51,8 @@ public class LoginActivity extends Activity {
         // Set up the login form.
         inputEmail = (EditText) findViewById(R.id.email);
         inputPassword = (EditText) findViewById(R.id.password);
+        btnLogin = (Button) findViewById(R.id.btnLogin);
+        btnLinkToRegister = (Button) findViewById(R.id.btnLinkToRegisterScreen);
         //mLoginFormView = findViewById(R.id.email_login_form);
         //mProgressView = findViewById(R.id.login_progress);
 
